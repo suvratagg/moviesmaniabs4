@@ -1,0 +1,334 @@
+/*custom css*/
+/*add body color*/
+body {
+  background-color: #000000;
+}
+
+#mynavbar {
+  margin-left: -150px;
+}
+
+/*navbar color is black*/
+.navcolor {
+  color: black;
+}
+
+/*logo image css*/
+.logoimage{
+  width: 20%;
+  height: 20%;
+}
+
+#login ul li {
+  float: right;
+}
+
+.logo{
+  background-color: #000000;
+  height: 120px;
+}
+
+.lead{
+  color: white;
+}
+
+.logo img {
+  width: 60%;
+  height: 50%;
+}
+
+.imgsize {
+  width: 100%;
+  height: 600px;
+}
+
+
+
+/*card css*/
+.cardcolor {
+  color: grey;
+}
+
+.cardimg {
+  width: 100%;
+  height: 30%;
+}
+
+.size {
+  height: 20%;
+}
+
+/*footer*/
+.footer {
+  background-color: #ff4500;
+  color: white;
+}
+
+.footer img {
+  width: 8%;
+  height: 8%;
+}
+
+.footer .about {
+  text-align: center;
+}
+
+.footer .contact {
+  text-align: center;
+}
+
+.footer .app {
+  text-align: center;
+}
+
+#footercolor {
+  color: black;
+}
+
+.footercolorlogo {
+  color: black;
+  font-size: 20px;
+}
+
+/*page 2 i.e. movie.html css*/
+#bollytext {
+  text-align: justify;
+  font-size: 15px;
+  color: white;
+  margin: auto;
+}
+
+.bollyimg img {
+  width: 100%;
+  height: 30%;
+  float: right;
+}
+
+.hollyimg img {
+  width: 100%;
+  height: 30%;
+  float: right;
+}
+
+#hollytext {
+  font-size: 15px;
+  color: white;
+  text-align: justify;
+}
+
+#edit {
+  color: white;
+  text-decoration: underline;
+  font-size: 30px;
+  text-align: justify;
+}
+
+#editagain {
+  color: white;
+  text-decoration: underline;
+  font-size: 30px;
+  text-align: justify;
+}
+
+.rating {
+  color: green;
+  font-size: 18px;
+}
+
+.movietitle {
+  color: orange;
+  font-size: 18px;
+}
+
+/*media queries*/
+
+@media screen and (max-width:375px){
+  .logo{
+    margin-bottom: 30px;
+  }
+  .lead{
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (max-width:425px){
+  .logo{
+    background-color: #000000;
+    height: 60px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .lead{
+    font-size: 12px;
+  }
+  .logoimage{
+    width: 10%;
+    height: 10%;
+  }
+  .foot {
+    font-size: 10px;
+
+  }
+  .footercolorlogo{
+    font-size: 15px;
+    color: black;
+  }
+  .footer img{
+    width: 4%;
+    height: 4%;
+  }
+
+  #edit{
+    font-size: 16px;
+  }
+
+  #bollytext{
+    font-size: 10px;
+  }
+
+  .bollyimg img {
+    width: 80%;
+    height: 20%;
+    float:left;
+  }
+
+  .hollyimg img{
+    width: 80%;
+    height: 20%;
+    float:left
+  }
+
+  .movietitle{
+    font-size: 12px;
+  }
+
+  .rating{
+    font-size: 12px;
+  }
+
+  #editagain{
+    font-size: 16px;
+  }
+  
+  #hollytext{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .logo{
+    background-color: #000000;
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .lead{
+    font-size: 18px;
+  }
+
+  .logoimage{
+    width: 8%;
+    height: 8%;
+  }
+
+  .foot {
+    font-size: 12px;
+
+  }
+
+  .footercolorlogo{
+    font-size: 15px;
+  }
+
+  .footer img{
+    width: 6%;
+    height: 6%;
+  }
+
+  #edit{
+    font-size: 18px;
+  }
+
+  #bollytext{
+    font-size: 8px;
+  }
+
+  .movietitle{
+    font-size: 10px;
+  }
+
+  .rating{
+    font-size: 10px;
+  }
+
+  .bollyimg img {
+    width: 80%;
+    height: 50%;
+    float:left;
+  }
+
+  #editagain{
+    font-size: 18px;
+  }
+
+  #hollytext{
+    font-size: 8px;
+  }
+
+  .hollyimg img{
+    width: 80%;
+    height: 50%;
+    float:left;
+  }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+  .logo{
+    margin-bottom: 60px;
+  }
+
+  #bollytext{
+    font-size: 11px;
+  }
+
+  .bollyimg img {
+    width: 80%;
+    height: 50%;
+    float:left;
+  }
+
+  .hollyimg img{
+    width: 80%;
+    height: 50%;
+    float:left
+  }
+
+  .movietitle{
+    font-size: 13px;
+  }
+
+  .rating{
+    font-size: 13px;
+  }
+
+  #hollytext{
+    font-size: 11px;
+  }
+
+  #edit{
+    font-size: 20px;
+  }
+
+  #editagain{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .logo{
+    margin-bottom: 55px;
+  }
+}
